@@ -1,0 +1,16 @@
+{
+"companyName": "RandomMomentania",
+"productName": "FNAF Final Purgatory",
+"productVersion": "1.0.0",
+"dataUrl": "fnaf-final-purgatory.data.unityweb",
+"wasmCodeUrl": "fnaf-final-purgatory.wasm.code.unityweb",
+"wasmFrameworkUrl": "fnaf-final-purgatory.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#09102B",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.1.4f1"
+}

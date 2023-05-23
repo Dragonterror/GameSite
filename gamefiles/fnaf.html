@@ -1,0 +1,40 @@
+<HTML>
+
+<head>
+  <link rel="stylesheet" href="fnaf/style.css">
+  <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+  <script type="text/javascript" async=""
+    src="https://www.googletagmanager.com/gtag/js?id=G-5B7R5EP03B&amp;l=dataLayer&amp;cx=c"></script>
+  <script src="fnaf/UnityProgress.js"></script>
+  <script src="fnaf/fnaf-final-purgatory.js"></script>
+  <script>
+    var gameInstance = UnityLoader.instantiate("gameContainer", "fnaf/fnaf-final-purgatory.json", {onProgress: UnityProgress, Module: {onRuntimeInitialized: function () {UnityProgress(gameInstance, "complete")}}});
+  </script>
+</head>
+
+<body>
+  <div class="webgl-content">
+    <div id="gameContainer"
+      style="width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; position: relative; background: rgb(9, 16, 43);">
+      <canvas id="#canvas" style="width: 100%; height: 100%; cursor: default;" width="1366" height="665"></canvas>
+      <div class="logo Dark" style="display: none;"></div>
+      <div class="progress Dark" style="display: none;">
+        <div class="empty" style="width: 0%;"></div>
+        <div class="full" style="width: 100%;"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-146349913-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-146349913-1');
+  </script>
+
+</body>
+
+</HTML>
